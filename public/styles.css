@@ -1,0 +1,50 @@
+body {
+    background: linear-gradient(90deg, #DB213C 12.5%, #4064A0 12.5% 25%, #58BD29 25% 37.5%, #269239 37.5% 50%, #2AB1C4 50% 62.5%, #FDCF18 62.5% 75%, #FF5F15 75% 87.5%, #6D3C2B 87.5%);
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    display: flex;
+}
+
+#south-park-sign {
+    margin: 0 auto;
+    height: 300px;
+    width: 350px;
+    background-color: black;
+    border-radius: 7px;
+    /* box-shadow: 5px 10px; */
+}
+
+h2 {
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    /* display: inline-block; */
+    width: fit-content;
+    height: fit-content;
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#character-results {
+    /* display: inline-block; */
+    box-shadow: 5px 10px;
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#episode-results {
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-around;
+    align-items: flex-end;
+}
